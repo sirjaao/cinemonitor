@@ -1,0 +1,36 @@
+class Filme{
+
+  private String Titulo;
+  private int Ano;
+  private int Tipo;
+
+  public Titulo(String t) {
+    Titulo = t;
+  }
+  public String getTitulo() {
+    return Titulo;
+  }
+  public void setTitulo(String Titulo) {
+		this.Titulo = Titulo;
+  }
+  public Ano(int a) {
+    Ano = a;
+  }
+  public int getAno() {
+    return Ano;
+  }
+  public void setAno(String Ano) {
+		this.Ano = Ano;
+  }
+
+  public Tipo(int i) {
+    Tipo = i;
+  }
+  public int getTipo() {
+    return Tipo;
+  }
+
+  public void setTipo(String Tipo) {
+		this.Tipo = Tipo;
+
+}
